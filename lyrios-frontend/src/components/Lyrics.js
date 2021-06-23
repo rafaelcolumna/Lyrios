@@ -31,7 +31,7 @@ const URL = `${baseURL}${q}${limit}${apiKey}${type}${hasLyrics}`;
             data +'?'+apiKey
         )
         setLyricsData(response.data.result.lyrics)
-        console.log(lyricsData)
+        console.log(response)
         return 'response'
     }
     //get only after page is rendered
